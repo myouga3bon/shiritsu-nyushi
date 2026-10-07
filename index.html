@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="長野の私立高校6校の令和9年度入試日程と、学校見学会・模試スケジュール（学習空間稲里教室）">
+<title>長野私立高校 入試・見学ガイド</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap">
+<style>
+:root{
+  --bg:#f3f6f9; --paper:#ffffff; --ink:#1b2530; --sub:#566474; --line:#d6dee6;
+  --accent:#1f5f99; --accent-ink:#ffffff; --moshi:#c2410c; --moshi-bg:#fff1d6; --moshi-ink:#8a2a06;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#11161c; --paper:#1a222c; --ink:#e7edf3; --sub:#9fadbb; --line:#2e3a47;
+    --accent:#6fa8e0; --accent-ink:#0d1620; --moshi:#f39a5e; --moshi-bg:#3a2412; --moshi-ink:#ffd2b0;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#11161c; --paper:#1a222c; --ink:#e7edf3; --sub:#9fadbb; --line:#2e3a47;
+  --accent:#6fa8e0; --accent-ink:#0d1620; --moshi:#f39a5e; --moshi-bg:#3a2412; --moshi-ink:#ffd2b0;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Zen Kaku Gothic New","Hiragino Sans","Yu Gothic",sans-serif;font-size:15px;line-height:1.7;padding-inline:16px;padding-block:20px 48px}
+.wrap{max-width:1180px;margin:0 auto;display:flex;flex-direction:column;gap:20px}
+header{display:flex;flex-direction:column;gap:6px;border-bottom:2px solid var(--accent);padding-bottom:12px}
+.eyebrow{font-size:12.5px;font-weight:700;letter-spacing:.1em;color:var(--accent)}
+h1{margin:0;font-size:clamp(22px,4vw,30px);font-weight:900;letter-spacing:.03em;text-wrap:balance}
+.lead{margin:0;color:var(--sub);max-width:60em}
+.meta{font-size:12.5px;color:var(--sub)}
+.moshi{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;background:var(--moshi-bg);border:2px solid var(--moshi);border-radius:10px;padding:12px 16px;color:var(--moshi-ink)}
+.moshi .tag{background:var(--moshi);color:var(--paper);font-weight:900;padding:2px 12px;border-radius:6px;white-space:nowrap}
+.moshi b{font-size:17px;font-weight:900}
+.moshi small{display:block;font-size:12.5px;opacity:.9}
+.tabs{display:flex;gap:8px;flex-wrap:wrap}
+.tabs button{font:inherit;font-weight:700;font-size:15px;border:1.5px solid var(--accent);background:var(--paper);color:var(--accent);border-radius:999px;padding:8px 20px;cursor:pointer}
+.tabs button[aria-selected="true"]{background:var(--accent);color:var(--accent-ink)}
+.tabs button:focus-visible{outline:3px solid var(--moshi);outline-offset:2px}
+section.panel{display:flex;flex-direction:column;gap:18px}
+figure{margin:0;background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:10px;display:flex;flex-direction:column;gap:8px}
+figure img{display:block;width:100%;height:auto;max-width:100%;border-radius:4px;background:#fff}
+figcaption{font-weight:700;font-size:14px;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+figcaption span{font-weight:500;color:var(--sub);font-size:12.5px}
+.hint{font-size:13px;color:var(--sub);margin:0}
+footer{font-size:12.5px;color:var(--sub);border-top:1px solid var(--line);padding-top:12px}
+</style>
+
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">学習空間稲里教室より　保護者・中学生のみなさまへ</div>
+    <h1>長野の私立高校 入試日程と学校見学・模試</h1>
+    <p class="lead">文化学園長野・長野日大・長野俊英・長野清泉女学院・上田西・佐久長聖の6校について、令和9年度入試（2027年4月入学）の日程と、今年度の学校見学会・模試をまとめました。</p>
+    <div class="meta">2026年10月7日現在の情報です。日程や申込方法は変更されることがあります。必ず各校のホームページでご確認ください。</div>
+  </header>
+
+  <div class="moshi" role="note">
+    <span class="tag">★ 模試</span>
+    <div><b>11/7（土）文化学園長野高校模試①</b><small>申込 10/6〜11/4 17:00</small></div>
+    <div><b>12/5（土）文化学園長野高校模試②</b><small>申込 11/11〜12/2 17:00</small></div>
+    <div><small>国・数・英 各40分。学校説明・自己採点・個別相談つき。</small></div>
+  </div>
+
+  <div class="tabs" role="tablist" aria-label="表示する資料">
+    <button type="button" role="tab" id="tab-kengaku" aria-selected="true" aria-controls="p-kengaku">学校見学・模試スケジュール</button>
+    <button type="button" role="tab" id="tab-nyushi" aria-selected="false" aria-controls="p-nyushi">入試スケジュール</button>
+  </div>
+  <p class="hint">スマートフォンでは、画像を指で広げると拡大できます。</p>
+
+  <section class="panel" id="p-kengaku" role="tabpanel" aria-labelledby="tab-kengaku">
+    <figure><figcaption>6校の年間行事早見表<span>6月〜1月／申込〆＝申込締切</span></figcaption>
+      <img src="kengaku-1.png" alt="6校の学校見学会・説明会・模試の早見表（6月から1月）" width="1985" height="1403"></figure>
+    <figure><figcaption>これからの予定<span>10月7日以降・日付順</span></figcaption>
+      <img src="kengaku-2.png" alt="10月7日以降の学校見学会・模試の予定一覧" width="1985" height="1403"></figure>
+  </section>
+
+  <section class="panel" id="p-nyushi" role="tabpanel" aria-labelledby="tab-nyushi" hidden>
+    <figure><figcaption>6校の入試日程早見表<span>試験日・出願〆・合格発表</span></figcaption>
+      <img src="nyushi-1.png" alt="6校の令和9年度入試日程の早見表" width="1985" height="1403"></figure>
+    <figure><figcaption>学校別の詳細（1）<span>文化学園長野・長野日大・長野俊英</span></figcaption>
+      <img src="nyushi-2.png" alt="学校別の入試詳細 文化学園長野・長野日大・長野俊英" width="1985" height="1403"></figure>
+    <figure><figcaption>学校別の詳細（2）<span>長野清泉女学院・上田西・佐久長聖</span></figcaption>
+      <img src="nyushi-3.png" alt="学校別の入試詳細 長野清泉女学院・上田西・佐久長聖" width="1985" height="1403"></figure>
+    <figure><figcaption>参考：昨年度の入試結果<span>志願者・受験者・合格者・合格率</span></figcaption>
+      <img src="nyushi-4.png" alt="昨年度（2026年度）の入試結果" width="1985" height="1403"></figure>
+  </section>
+
+  <footer>出典：長野県「令和9年度私立高等学校（全日制）入学者選抜要項 概要」、長野県「令和8年度 私立高等学校入学者選抜の状況」、各校ホームページ、進研ゼミ高校入試情報サイト。作成：学習空間稲里教室</footer>
+</div>
+
+<script>
+(function(){
+  var tabs = document.querySelectorAll('[role="tab"]');
+  function show(id){
+    tabs.forEach(function(t){
+      var on = t.id === id;
+      t.setAttribute('aria-selected', on ? 'true' : 'false');
+      document.getElementById(t.getAttribute('aria-controls')).hidden = !on;
+    });
+  }
+  tabs.forEach(function(t){ t.addEventListener('click', function(){ show(t.id); }); });
+  if (location.hash === '#nyushi') show('tab-nyushi');
+})();
+</script>
+
+</body>
+</html>
